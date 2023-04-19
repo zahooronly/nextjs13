@@ -10,6 +10,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+      	<title>Chakra-UI Templates</title>
+      </head>
       <body>
         <ChakraProvider>
           <Navbar/>
